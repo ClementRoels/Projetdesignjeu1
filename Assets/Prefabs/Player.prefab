@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 114501317147000200}
   - component: {fileID: 114409196396544568}
   - component: {fileID: 1583276893178277904}
-  - component: {fileID: 1938913213565470785}
+  - component: {fileID: 4099063372956332909}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -314,11 +314,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbilityStartFeedbacks: {fileID: 0}
   AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
+  AbilityPermitted: 0
   BlockingMovementStates: 
   BlockingConditionStates: 
   DashDistance: 5
-  DashForce: 40
+  DashForce: 20
   ResetForcesOnExit: 0
   Aim:
     AimControl: 2
@@ -527,7 +527,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   WallJumpForce: {x: 10, y: 3}
-  ShouldReduceNumberOfJumpsLeft: 1
+  ShouldReduceNumberOfJumpsLeft: 0
   ForceMode: 0
   ForceFlipTowardsDirection: 0
 --- !u!114 &11444118
@@ -603,7 +603,8 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 0}
+  InitialWeapon: {fileID: 1317922582735431154, guid: 039a671d243959044b4d327439a597ca,
+    type: 3}
   CanPickupWeapons: 1
   WeaponAttachment: {fileID: 1045624886806204120}
   ForceWeaponScaleResetOnEquip: 0
@@ -929,58 +930,18 @@ MonoBehaviour:
   ResetAngleInTheAir: 1
   RotateWeapon: 1
   RaycastLength: 1
---- !u!212 &1938913213565470785
-SpriteRenderer:
+--- !u!114 &4099063372956332909
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119040}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.37}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1792f5c57349144a1e1172f3e70192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &159142
 GameObject:
   m_ObjectHideFlags: 0

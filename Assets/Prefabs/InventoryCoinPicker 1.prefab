@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8289930951752328157, guid: 2568b6423a4f8ff49af0de08a4a513bc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: 29bcb02dbe860be4994c316d31f71df5, type: 2}
   Quantity: 1
-  PickableIfInventoryIsFull: 0
+  PickableIfInventoryIsFull: 1
   DisableObjectWhenDepleted: 1
   PickFeedbacks: {fileID: 9087652215105186092}
 --- !u!95 &4611163874443645550
