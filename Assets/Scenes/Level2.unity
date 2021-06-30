@@ -36836,7 +36836,7 @@ MonoBehaviour:
       m_RotationOrder: 4
   FreezeTime: 0
   FreezeCharacter: 1
-  PointOfEntryIndex: 0
+  PointOfEntryIndex: 1
   FacingDirection: 1
 --- !u!1001 &1213650363
 PrefabInstance:
