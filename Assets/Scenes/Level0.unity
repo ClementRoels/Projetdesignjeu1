@@ -322,7 +322,10 @@ MonoBehaviour:
   CheckpointAttributionDirection: 0
   CurrentCheckPoint: {fileID: 0}
   PointsOfEntryLegacy: []
-  PointsOfEntry: []
+  PointsOfEntry:
+  - Name: 
+    Position: {fileID: 1195475619}
+    EntryFeedback: {fileID: 0}
   IntroFadeDuration: 1
   OutroFadeDuration: 1
   FaderID: 0
@@ -1645,6 +1648,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e61e384ef9ab374eb50a84786882227, type: 3}
+--- !u!4 &1195475619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4717152647488139384, guid: aa934da9a2c5ff046985e2b86afbcb68,
+    type: 3}
+  m_PrefabInstance: {fileID: 7507609128687036249}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1289415820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8586,7 +8595,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22449008, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.000244
+      value: -28.000305
+      objectReference: {fileID: 0}
+    - target: {fileID: 22460478, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -228.99998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}

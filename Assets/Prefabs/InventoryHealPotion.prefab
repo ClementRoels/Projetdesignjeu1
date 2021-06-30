@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1451365078031370963}
   - component: {fileID: 1451608171004232361}
   m_Layer: 0
-  m_Name: InventoryStimpackPicker (1)
+  m_Name: InventoryHealPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d96dc71d76c4e2ab8eb19d92d40d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: 7415666655b546b45b7b15f39d987cfe, type: 2}
+  Item: {fileID: 11400000, guid: d5fd041d91358254c84ee6adaf9041e5, type: 2}
   Quantity: 1
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 1
