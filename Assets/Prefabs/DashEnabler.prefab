@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 7392514191402462319}
   - component: {fileID: 7392514191402462304}
   - component: {fileID: 7392514191402462305}
+  - component: {fileID: 3287169493776111471}
   m_Layer: 0
   m_Name: DashEnabler
   m_TagString: Untagged
@@ -289,3 +290,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3410f37948886d1438056aebb7650b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3287169493776111471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7392514191402462306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks:
+  - {fileID: 6895982623237400758, guid: 7cfe38723d0bad047932369ed4ef4409, type: 3}
+  - {fileID: 9028659229302466492, guid: 7cfe38723d0bad047932369ed4ef4409, type: 3}
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  DurationMultiplier: 1
+  DisplayFullDurationDetails: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
