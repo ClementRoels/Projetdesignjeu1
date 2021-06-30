@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  MinimumDistance: 1
+  MinimumDistance: 0
 --- !u!114 &3592319805452970583
 MonoBehaviour:
   m_ObjectHideFlags: 0
